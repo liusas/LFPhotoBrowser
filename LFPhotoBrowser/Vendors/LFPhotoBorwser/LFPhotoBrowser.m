@@ -42,7 +42,7 @@ static NSString * const reuseIdentifier = @"LFPhotoBrowserCell";
     self.delegate = (id<LFPhotoBrowserDelegate>)viewController;
     self.transitioningDelegate = self;
     self.modalPresentationStyle = UIModalPresentationCustom;
-    self.modalPresentationCapturesStatusBarAppearance = YES;
+//    self.modalPresentationCapturesStatusBarAppearance = YES;
     viewController.definesPresentationContext = YES;
     [viewController presentViewController:self animated:YES completion:nil];
 }
